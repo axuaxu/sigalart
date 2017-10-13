@@ -2,6 +2,10 @@
 find_index_01.py   find index.html files 
                    params: [input: root dir, output: indexlist.csv]
 
+replace_str_05.py  replace title,name
+                   paarams:[input: index files, indexlist.csv, 
+                            output: modified index files]
+
 
 Access Key,Secret Key
 AKIAIA5J4XZKVECVY5YA,A6x486ftL9v5Dhgwdepkyu5nx3qj8mSie+CfYf6i
