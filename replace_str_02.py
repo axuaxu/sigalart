@@ -20,9 +20,10 @@ def rep_name(indexF,name):
 		print(desc[1])
 		rep_desc = desc[1].replace('.jpg','')
 		rep_desc = rep_desc.replace('-',' ')
-		rep_desc = rep_desc.title()
+		rep_desc = desc[0]+rep_desc.title()+desc[2]
 		org_desc = desc[0]+desc[1]+desc[2]
-		#fstr = fstr.replace(org_desc,rep_desc)
+
+		fstr = fstr.replace(org_desc,rep_desc)
 	f = open(indexF,'w')
 	f.write(fstr)
 	f.close
